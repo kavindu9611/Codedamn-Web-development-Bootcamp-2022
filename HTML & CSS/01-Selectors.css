@@ -1,0 +1,26 @@
+/* Following are three types of selectors in CSS.
+
+h1 -> <h1>
+
+.red -> <h1 class = "red">
+
+#one -> <h2 id = "one"
+
+
+*/
+
+h1 {
+    background: blue
+
+}
+
+.red{
+
+    background-color: blueviolet;
+}
+
+#one{
+   background-color: aliceblue;
+}
+
+

@@ -1,0 +1,31 @@
+body{
+    background:pink;
+
+}
+
+.newnewlayout{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.first{
+    flex-shrink: 1;
+}
+.second{
+    flex-shrink: 2;
+}
+.third{
+    flex-shrink: 0;
+}
+.fourth{
+    flex-shrink: 0;
+}
+.newnewlayout div{
+    background: red;
+    height: 50px;
+    flex-basis:200px ;
+   
+    border: 2px solid black;
+    margin: 10px;
+}
